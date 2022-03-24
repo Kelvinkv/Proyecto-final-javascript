@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+body {
+    min-height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+main {
+    margin: 30px;
+}
+
+header {
+     margin: 4px  ;
+}
+
+nav .imagelogo {
+    width: 80px;
+    height: 20px;
+    margin: 1em 2em 3em 4em ;
+}
+
+.imagelogo img{
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.fa-times-circle{
+    color: #484848;
+}
+
+.footer {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+/* Fondo estrellado */
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+.estrellas {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+body {
+  background:#000 url(http://1.bp.blogspot.com/-q7NYia_DjQI/U4t7_J4gwwI/AAAAAAAAMKo/nru4YxfjK6I/s1600/estrellas.png) repeat top center;
+}
+
+.estrellas{
+  background:transparent url(http://3.bp.blogspot.com/-FwB8aSiMBmI/U4t9MkimRrI/AAAAAAAAMK0/FAlqX8ZFyu8/s1600/twinkling.png) repeat top center;
+  z-index:-2;
+
+  -moz-animation:move-twink-back 100s linear infinite;
+  -ms-animation:move-twink-back 100s linear infinite;
+  -o-animation:move-twink-back 100s linear infinite;
+  -webkit-animation:move-twink-back 100s linear infinite;
+  animation:move-twink-back 100s linear infinite;
+}
+
+/* Formulario */
+
+.error{
+    background-color: #BC1010;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    /* position: absolute; */
+}
+.error:before{ 
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}
+
+.boton {
+    margin: 15px;
+}
+
+.boton button {
+    margin: 10px;
+}
+
+.contac {
+    margin: 15px;
+}
+
+

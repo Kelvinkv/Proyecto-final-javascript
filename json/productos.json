@@ -1,0 +1,58 @@
+[
+    {
+        "data-id": 1,
+        "nombre":"Psiconalista",
+        "autor": "John Katzenbach",
+        "precio": "10000",
+        "img": "psicoanalista.jpg"
+    },
+    {
+        "data-id": 2,
+        "nombre":"Harry Potter",
+        "autor": "J.K. Rowling.",
+        "precio": "50000",
+        "img": "harry-potter.jpg"
+    },
+    {
+        "data-id": 3,
+        "nombre":"Entrevista con el vampiro",
+        "autor": "Anne Rice",
+        "precio": "7000",
+        "img": "entrevista-con-el-vampiro.jpg"
+    },
+    {
+        "data-id": 4,
+        "nombre":"El Ladron del rayo",
+        "autor": "Rick Riordan",
+        "precio": "80000",
+        "img": "el-ladron-del-rayo.jpg"
+    },
+    {
+        "data-id": 5,
+        "nombre":"Eragon",
+        "autor": "Christopher Paolini",
+        "precio": "10000",
+        "img": "eragon.jpg"
+    },
+    {
+        "data-id": 6,
+        "nombre":"La aprendiz",
+        "autor": "Trudi Canavan",
+        "precio": "50000",
+        "img": "la-aprendiz.jpg"
+    },
+    {
+        "data-id": 7,
+        "nombre":"El Septimo Hijo",
+        "autor": "Joseph Delaney",
+        "precio": "7000",
+        "img": "El-Septimo-Hijo.jpg"
+    },
+    {
+        "data-id": 8,
+        "nombre":"El Principe Lestat",
+        "autor": "Anne Rice",
+        "precio": "80000",
+        "img": "El-Principe-Lestat.jpg"
+    }
+]
